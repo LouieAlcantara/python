@@ -1,6 +1,5 @@
-m=['masculino']
-print(input('qual o seu genero?'))
-if m :
-    print('es macho') 
+m = print input('Qual seu genero? ')
+if (m== 'masculino'):
+    print('es macho')
 else:
     print('es femea')
