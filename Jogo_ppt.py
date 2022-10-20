@@ -32,7 +32,7 @@ while( True):
     def_ppt.bem_vindo('tesoura')
     print('')
 
-    computador = random.randrange(1,3)
+    computador = random.randrange(1,4)
     time.sleep(1)
     if (computador == 1):
         print('O computador escolheu : PEDRA ') 
