@@ -39,8 +39,7 @@ while( True):
             print('Você perdeu')
         elif (escolha == 3):
             print('Você ganhou')
-        else:
-            print('Error')
+        
     elif (computador == 2):
         print('O computador escolheu : PAPEL')
         if (escolha == 2):
@@ -48,9 +47,8 @@ while( True):
         elif (escolha == 3):
             print('Você perdeu')
         elif (escolha == 1):
-            print('Você ganhou')
-        else:
-            print('Error')
+            print('Você ganhou') 
+
     elif (computador == 3):
         print('O computador escolheu : TESOURA')
         if (escolha == 3):
@@ -59,8 +57,5 @@ while( True):
             print('Você perdeu')
         elif (escolha == 2):
             print('Você ganhou')
-        else:
-            print('Error')
     else:
-        print('Error')
-
+        break
