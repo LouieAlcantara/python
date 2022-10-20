@@ -33,7 +33,7 @@ while( True):
     print('')
 
     computador = random.randrange(1,3)
-
+    time.sleep(1)
     if (computador == 1):
         print('O computador escolheu : PEDRA ') 
         if (escolha == 1):
