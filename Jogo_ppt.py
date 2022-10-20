@@ -29,7 +29,7 @@ while( True):
     def_ppt.bem_vindo('Papel')
     print ('')
     time.sleep(1)
-    def_ppt.bem_vindo('tesoura')
+    def_ppt.bem_vindo('Tesoura')
     print('')
 
     computador = random.randrange(1,4)
@@ -37,28 +37,28 @@ while( True):
     if (computador == 1):
         print('O computador escolheu : PEDRA ') 
         if (escolha == 1):
-            print('Houve empate')
+            print('Você escolheu pedra\nHouve empate')
         elif (escolha == 2):
-            print('Você ganhou')
+            print('Você escolheu papel\nVocê ganhou')
         elif (escolha == 3):
-            print('Você perdeu')
+            print('Você escolheu tesoura\nVocê perdeu')
         
     elif (computador == 2):
         print('O computador escolheu : PAPEL')
         if (escolha == 2):
-            print('Houve empate')
+            print('Você escolheu papel\nHouve empate')
         elif (escolha == 3):
-            print('Você ganhou')
+            print('Você escolheu tesoura\nVocê ganhou')
         elif (escolha == 1):
-            print('Você perdeu') 
+            print('Você escolheu pedra\nVocê perdeu') 
 
     elif (computador == 3):
         print('O computador escolheu : TESOURA')
         if (escolha == 3):
-            print('Houve empate')
+            print('Você escolheu tesoura\nHouve empate')
         elif (escolha == 1):
-            print('Você ganhou')
+            print('Você escolheu pedra\nVocê ganhou')
         elif (escolha == 2):
-            print('Você perdeu')
+            print('Você escolheu papel\nVocê perdeu')
     else:
         break
